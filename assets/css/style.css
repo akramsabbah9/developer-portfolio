@@ -2,7 +2,8 @@
     --color-1: lightsalmon;
     --color-2: gold;
     --color-3: darkred;
-    --color-bg: grey;
+    --color-4: grey;
+    --color-bg: #7FAFBB;
 }
 
 * {
@@ -50,7 +51,7 @@ header a {
 header nav {
     margin: auto 0;
     padding: 3px 0;
-    background-color: var(--color-bg);
+    background-color: var(--color-4);
     border-radius: 15px;
 }
 
@@ -97,15 +98,18 @@ footer p {
 
 /* BEGIN HERO */
 .hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    background-position: center;
 }
 /* END HERO */
+
+
+/* BEGIN MISC STYLES */
+
+/* END MISC STYLES */
 
 /* AKRAM SABBAH */
