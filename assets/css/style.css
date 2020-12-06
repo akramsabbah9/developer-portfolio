@@ -100,7 +100,6 @@ footer p {
 .hero {
     height: 400px;
     width: 100%;
-    margin-bottom: 25px;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
@@ -112,7 +111,7 @@ footer p {
 .content-section {
     display: flex;
     justify-content: flex-start;
-    padding: 0 40px 40px 80px;
+    padding: 25px 40px 40px 80px;
 }
 
 .section-title {
@@ -133,6 +132,10 @@ footer p {
 
 
 /* BEGIN ABOUT ME STYLES */
+.about-bg {
+    background-color: var(--color-bg);
+}
+
 .about {
     display: flex;
     justify-content: space-between;
@@ -154,7 +157,55 @@ footer p {
     max-width: 100%;
     border-radius: 15px;
 }
-
 /* END ABOUT ME STYLES */
+
+
+/* BEGIN MY WORK STYLES */
+
+/* END MY WORK STYLES */
+
+
+/* BEGIN CONTACT ME STYLES */
+.contact-bg {
+    background-color: var(--color-1);
+}
+
+.contact {
+    margin: auto 0;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.contact li {
+    border-bottom: 2px solid;
+    flex: 0 auto;
+}
+
+.contact ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-3);
+}
+
+.contact-img {
+    margin-right: 5px;
+}
+
+.contact-img img {
+    width: 16px;
+    height: 16px;
+    max-width: 100%;
+}
+
+.contact-text {
+    font-size: 20px;
+}
+/* END CONTACT ME STYLES
 
 /* AKRAM SABBAH */
