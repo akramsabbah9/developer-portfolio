@@ -109,7 +109,16 @@ footer p {
 
 
 /* BEGIN MISC STYLES */
-
+.section-title {
+    font-size: 48px;
+    color: var(--color-3);
+    border-right: 3px solid;
+    border-color: var(--color-3);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
 /* END MISC STYLES */
 
 /* AKRAM SABBAH */
