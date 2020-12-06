@@ -2,7 +2,7 @@
     --color-1: lightsalmon;
     --color-2: gold;
     --color-3: darkred;
-    --color-bg: white;
+    --color-bg: grey;
 }
 
 * {
@@ -35,6 +35,8 @@ header h1 {
     font-size: 36px;
     padding: 3px 60px 3px 20px;
     border-radius: 15px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     background: var(--color-1);
     color: var(--color-2);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -47,6 +49,9 @@ header a {
 
 header nav {
     margin: auto 0;
+    padding: 3px 0;
+    background-color: var(--color-bg);
+    border-radius: 15px;
 }
 
 header nav ul {
@@ -65,8 +70,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: var(--color-1);
-    color: var(--color-bg);
+    background: var(--color-2);
+    color: var(--color-3);
     border-radius: 15px;
     text-shadow: none;
 }
@@ -74,7 +79,19 @@ header nav ul li a:hover {
 
 
 /* BEGIN FOOTER STYLES */
+footer {
+    background: var(--color-2);
+    width: 100%;
+    padding: 20px 35px;
+    text-align: center;
+}
 
+footer p {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 5px;
+}
 /* END FOOTER STYLES */
 
 /* AKRAM SABBAH */
