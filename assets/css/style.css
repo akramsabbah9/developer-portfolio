@@ -108,17 +108,37 @@ footer p {
 /* END HERO */
 
 
-/* BEGIN MISC STYLES */
+/* BEGIN SECTION SPACING STYLES */
+.content-section {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 40px 40px 80px;
+}
+
 .section-title {
     font-size: 48px;
     color: var(--color-3);
     border-right: 3px solid;
     border-color: var(--color-3);
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
+    padding: 0 20px 0 60px;
+    text-align: right;
+    margin: 0 auto;
+    width: 30%;
 }
-/* END MISC STYLES */
+
+.flex-content {
+    width: 70%;
+}
+/* END SECTION SPACING STYLES */
+
+
+/* BEGIN ABOUT ME STYLES */
+.about {
+    padding-left: 80px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+/* END ABOUT ME STYLES */
 
 /* AKRAM SABBAH */
