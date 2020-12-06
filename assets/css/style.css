@@ -94,4 +94,18 @@ footer p {
 }
 /* END FOOTER STYLES */
 
+
+/* BEGIN HERO */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+/* END HERO */
+
 /* AKRAM SABBAH */
