@@ -1,5 +1,5 @@
 :root {
-    --color-1: lightsalmon;
+    --color-1: #FE7924;
     --color-2: gold;
     --color-3: darkred;
     --color-4: grey;
@@ -119,7 +119,7 @@ footer p {
     color: var(--color-3);
     border-right: 3px solid;
     border-color: var(--color-3);
-    padding: 0 20px 0 60px;
+    padding: 0 20px 20px 60px;
     text-align: right;
     margin-right: 20px;
     width: 30%;
@@ -127,6 +127,10 @@ footer p {
 
 .flex-content {
     width: 70%;
+}
+
+#about-me:target, #my-work:target {
+    padding-top: 80px;
 }
 /* END SECTION SPACING STYLES */
 
@@ -146,6 +150,7 @@ footer p {
     flex: 1 60%;
     align-self: flex-start;
     margin: 2px;
+    font-size: 20px;
 }
 
 .about-img {
@@ -185,6 +190,10 @@ footer p {
     border: 5px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     font-size: 16px;
+}
+
+.grid-item:hover {
+    opacity: 0.7;
 }
 
 .grid-horiseon {
