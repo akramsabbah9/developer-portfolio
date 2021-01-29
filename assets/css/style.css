@@ -211,6 +211,36 @@ footer p {
     background-position: center;
 }
 
+.grid-recipe-finder {
+    background-image: url("../images/recipe-finder-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-password {
+    background-image: url("../images/password-generator-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-coding-quiz {
+    background-image: url("../images/coding-quiz-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-workday {
+    background-image: url("../images/workday-scheduler-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-weather-dash {
+    background-image: url("../images/weather-dashboard-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
 .grid-unknown {
     background-image: url("../images/under-construction.jpg");
     background-size: cover;
