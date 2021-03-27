@@ -196,19 +196,20 @@ footer p {
     opacity: 0.7;
 }
 
-.grid-horiseon {
+.grid-big {
     height: 300px;
-    background-image: url("../images/horiseon-bg.png");
-    background-size: cover;
-    background-position: 50% 60%;
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
 
+.grid-horiseon {
+    background-image: url("../images/horiseon-bg.png");
+    background-size: cover;
+    background-position: 50% 60%;
+}
+
 .grid-run-buddy {
     background-image: url("../images/run-buddy-bg.png");
-    background-size: cover;
-    background-position: center;
 }
 
 .grid-recipe-finder {
@@ -237,6 +238,24 @@ footer p {
 
 .grid-weather-dash {
     background-image: url("../images/weather-dashboard-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-just-tech-news {
+    background-image: url("../images/just-tech-news-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-hi-tech {
+    background-image: url("../images/hi-tech-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-wikipleiades {
+    background-image: url("../images/wikipleiades-bg.png");
     background-size: cover;
     background-position: center;
 }
